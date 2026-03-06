@@ -6,8 +6,6 @@ import { Navbar } from "./components/Navbar";
 import { Code } from "./icons/Code";
 import { File } from "./icons/File";
 import { code1, code2, code3, code4, code5, code6 } from "./PracticalCodes";
-
-// 1. We import the new Scroll to Top component right here!
 import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
@@ -48,8 +46,6 @@ export default function App() {
                     <span className="bg-gradient-to-r from-emerald-400 via-orange-600 to-blue-400 bg-clip-text text-transparent cursor-pointer">All the best! Regards, Shubhashish ;)</span>
                 </h1>
             </div>
-            
-            {/* 2. And we deploy it right here at the very end of the app! */}
             <ScrollToTop />
         </div>
     )

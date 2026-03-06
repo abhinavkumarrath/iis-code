@@ -40,18 +40,17 @@ const ScrollToTop = () => {
   );
 };
 
-// Inline styles ensure it works regardless of whether you use Tailwind, Vanilla CSS, or SCSS. 
-// You can move this to a CSS file if you prefer!
 const styles = {
   button: {
     position: 'fixed' as const,
     bottom: '40px',
     right: '40px',
-    height: '50px',
-    width: '50px',
-    fontSize: '24px',
-    backgroundColor: '#6366f1', // Feel free to change this to match your app's theme
-    color: 'white',
+    height: '55px',
+    width: '55px',
+    fontSize: '30px',
+    fontWeight: 'bold' as const,
+    backgroundColor: '#ffffff',
+    color: 'black',
     border: 'none',
     borderRadius: '50%',
     cursor: 'pointer',
