@@ -1,11 +1,11 @@
-import { output1, output2, output3, output4, output5, output6 } from "./CodeOutputs";
+import { code1, code2, code3, code4, code5, code6, code7, code8, code9, code10 } from "./PracticalCodes";
+import { output1, output2, output3, output4, output5, output6, output7, output8, output9, output10 } from "./CodeOutputs";
 import { Capsule } from "./components/Capsule";
 import CodeBlock from "./components/CodeBlock";
 import { Intro } from "./components/Intro";
 import { Navbar } from "./components/Navbar";
 import { Code } from "./icons/Code";
 import { File } from "./icons/File";
-import { code1, code2, code3, code4, code5, code6 } from "./PracticalCodes";
 
 // 1. We import the new Scroll to Top component right here!
 import ScrollToTop from "./components/ScrollToTop";
@@ -40,7 +40,12 @@ export default function App() {
                 <CodeBlock title="3. Hill Cipher Algorithm" code={code3} output={output3} />
                 <CodeBlock title="4. RSA Cipher Algorithm" code={code4} output={output4} />
                 <CodeBlock title="5. Diffie-Hellman Algorithm" code={code5} output={output5} />
-                <CodeBlock title="Stay Tuned!" code={code6} output={output6} />
+                <CodeBlock title="6. DES Algorithm" code={code6} output={output6} />
+                <CodeBlock title="7. MD5 Algorithm" code={code7} output={output7} />
+                <CodeBlock title="8. SHA-256 Algorithm" code={code8} output={output8} />
+                <CodeBlock title="9. HMAC Algorithm" code={code9} output={output9} />
+                <CodeBlock title="10. Web Security Protocols" code={code10} output={output10} />
+                
             </div>
 
             <div className="text-center pb-20"> {/* Added a little padding-bottom (pb-20) here so the button doesn't cover the text! */}
