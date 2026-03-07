@@ -6,12 +6,6 @@ import { Intro } from "./components/Intro";
 import { Navbar } from "./components/Navbar";
 import { Code } from "./icons/Code";
 import { File } from "./icons/File";
-
-import { code1, code2, code3, code4, code5, code6 } from "./PracticalCodes";
-
-
-// 1. We import the new Scroll to Top component right here!
-
 import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
